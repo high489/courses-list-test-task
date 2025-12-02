@@ -1,0 +1,53 @@
+:root {
+  --font-main: 'Lato', sans-serif;
+
+  // palette colors
+  --white: #FFFFFF;
+  --primary: #FF3F3A;
+  --btn-gradient: linear-gradient(90deg, #FF3F3A 0%, #F75E05 100%);
+  --secondary: #FFCF2D;
+  --divider-gradient: linear-gradient(
+      90deg,
+      rgba(218, 219, 221, 0)     0%,
+      rgba(218, 219, 221, 0.5)   12%,
+      #DADBDD                    52%,
+      rgba(218, 219, 221, 0.5)   88%,
+      rgba(218, 219, 221, 0)     100%
+    );
+  --success: #03CEA4;
+  --danger: #FF4242;
+  --warning: #F89828;
+  --info: #5A87FC;
+  --bright-pink: #F52F6E;
+
+  // gray colors
+  --gray-900: #1E212C;
+  --gray-800: #424551;
+  --gray-700: #787A80;
+  --gray-600: #9A9CA5;
+  --gray-500: #B3B7BC;
+  --gray-400: #D7DADD;
+  --gray-300: #E5E8ED;
+  --gray-200: #F4F5F6;
+  --gray-100: #F9F9F9;
+
+  // shadows
+  --shadow-small: 
+    0 80px 80px -20px rgba(#9A9CA5, 0.08),
+    0 30px 24px -10px rgba(#9A9CA5, 0.05),
+    0 12px 10px -6px rgba(#9A9CA5, 0.04),
+    0 4px 4px -4px rgba(#1E212C, 0.03);
+  --shadow_regular:
+    0 80px 80px -20px rgba(#9A9CA5, 0.16),
+    0 30px 24px -10px rgba(#9A9CA5, 0.1),
+    0 12px 10px -6px rgba(#9A9CA5, 0.08),
+    0 4px 4px -4px rgba(#1E212C, 0.05);
+  --shadow_large:
+    0 60px 80px -20px rgba(#1E212C, 0.16),
+    0 26px 24px -10px rgba(#1E212C, 0.1),
+    0 12px 10px -6px rgba(#1E212C, 0.08),
+    0 4px 4px -4px rgba(#1E212C, 0.05);
+
+  // other
+  --corner-radius: 4px;
+}

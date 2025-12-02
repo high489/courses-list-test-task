@@ -1,0 +1,65 @@
+// headers
+// Ag h1 46/130
+@mixin h1 {
+  font-weight: 900;
+  font-size: 46px;
+  line-height: 130%;
+}
+
+// Ag h6 16/150
+@mixin h6 {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 1px;
+}
+
+// display
+
+// lead
+// Ag lead_bold 20/150
+@mixin lead_bold {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+// large
+// Ag large_regular 18/150
+@mixin large_regular {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+// Ag large_bold 18/150
+@mixin large_bold {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+// base
+// Ag base_bold 16/160
+@mixin base_bold {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 160%;
+}
+
+// small
+// Ag small_regular 14/150
+@mixin extrasmall_bold {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+// extrasmall
+
+// extraextrasmall
+// Ag extraextrasmall_bold 10/150
+@mixin extraextrasmall_bold {
+  font-weight: 900;
+  font-size: 10px;
+  line-height: 150%;
+}

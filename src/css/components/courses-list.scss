@@ -1,0 +1,16 @@
+@use '../styles' as styles;
+
+.courses-list {
+  text-align: center;
+  padding: 80px 20px;
+
+  &__title {
+    @include styles.h1;
+    margin: 0;
+  }
+
+  &__subtitle {
+    @include styles.h6;
+    margin: 0;
+  }
+}
