@@ -1,0 +1,92 @@
+@use '../styles' as styles;
+
+.course-card {
+  cursor: pointer;
+  width: 100%;
+  height: 100%;
+  background-color: var(--white);
+  border: 1px solid var(--gray-300);
+  border-radius: var(--corner-radius);
+  box-shadow: var(--shadow-small);
+
+  &__image {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  &__teacher-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+
+  &__content {
+    padding: 21px 22px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+
+    @media (max-width: 390px) {
+      padding: 19px;
+      gap: 16px;
+    }
+  }
+
+  &__category {
+    padding: 1px 8px;
+    border-radius: var(--corner-radius);
+    color: var(--white);
+    @include styles.small_regular;
+
+    @media (max-width: 390px) {
+      @include styles.small_regular(0.8);
+    }
+  }
+  
+  &__title {
+    @include styles.lead_bold;
+    color: var(--gray-800);
+    margin: 0;
+    
+    @media (max-width: 390px) {
+      @include styles.lead_bold(0.8);
+    }
+  }
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  &__price {
+    @include styles.large_bold;
+    color: var(--danger);
+
+    @media (max-width: 390px) {
+      @include styles.large_bold(0.8);
+    }
+  }
+  
+  &__divider {
+    width: 1px;
+    height: 16px;
+    background-color: var(--gray-700);
+    display: inline-block;
+
+    @media (max-width: 390px) {
+      height: 13px;
+    }
+  }
+
+  &__teacher {
+    @include styles.large_regular;
+    color: var(--gray-700);
+
+    @media (max-width: 390px) {
+      @include styles.large_regular(0.8);
+    }
+  }
+}

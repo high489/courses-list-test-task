@@ -1,0 +1,37 @@
+@use '../styles' as styles;
+
+.greeting {
+  margin-top: -6px;
+  margin-left: -53px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  white-space: nowrap;
+
+  @media (max-width: 480px) {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
+  &__title {
+    @include styles.h1;
+    letter-spacing: -0.4px;
+    margin: 0;
+    margin-top: 8px;
+    color: var(--gray-900);
+
+    @media (max-width: 390px) {
+      @include styles.h1(0.7);
+    }
+  }
+
+  &__subtitle {
+    @include styles.h6;
+    margin: 0;
+    color: var(--gray-900);
+
+    @media (max-width: 390px) {
+      @include styles.h6(0.7);
+    }
+  }
+}
