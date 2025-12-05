@@ -5,7 +5,7 @@ export const courses = [
     category: { id: "marketing", title: "Marketing" },
     price: "$100",
     teacher_name: "Jerome Bell",
-    teacher_image: "/assets/images/teachers/jerome-bell.png"
+    teacher_image: "assets/images/teachers/jerome-bell.png"
   },
   {
     id: 1,
@@ -13,7 +13,7 @@ export const courses = [
     category: { id: "management", title: "Management" },
     price: "$480",
     teacher_name: "Marvin McKinney",
-    teacher_image: "/assets/images/teachers/marvin-mckinney.png"
+    teacher_image: "assets/images/teachers/marvin-mckinney.png"
   },
   {
     id: 2,
@@ -21,7 +21,7 @@ export const courses = [
     category: { id: "hr", title: "HR & Recruiting" },
     price: "$200",
     teacher_name: "Leslie Alexander Li",
-    teacher_image: "/assets/images/teachers/leslie-alexander-li.png"
+    teacher_image: "assets/images/teachers/leslie-alexander-li.png"
   },
   {
     id: 3,
@@ -29,7 +29,7 @@ export const courses = [
     category: { id: "marketing", title: "Marketing" },
     price: "$530",
     teacher_name: "Kristin Watson",
-    teacher_image: "/assets/images/teachers/kristin-watson.png"
+    teacher_image: "assets/images/teachers/kristin-watson.png"
   },
   {
     id: 4,
@@ -37,7 +37,7 @@ export const courses = [
     category: { id: "design", title: "Design" },
     price: "$500",
     teacher_name: "Guy Hawkins",
-    teacher_image: "/assets/images/teachers/guy-hawkins.png"
+    teacher_image: "assets/images/teachers/guy-hawkins.png"
   },
   {
     id: 5,
@@ -45,7 +45,7 @@ export const courses = [
     category: { id: "management", title: "Management" },
     price: "$400",
     teacher_name: "Dianne Russell",
-    teacher_image: "/assets/images/teachers/dianne-russell.png"
+    teacher_image: "assets/images/teachers/dianne-russell.png"
   },
   {
     id: 6,
@@ -53,7 +53,7 @@ export const courses = [
     category: { id: "development", title: "Development" },
     price: "$600",
     teacher_name: "Brooklyn Simmons",
-    teacher_image: "/assets/images/teachers/brooklyn-simmons.png"
+    teacher_image: "assets/images/teachers/brooklyn-simmons.png"
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ export const courses = [
     category: { id: "hr", title: "HR & Recruiting" },
     price: "$150",
     teacher_name: "Kathryn Murphy",
-    teacher_image: "/assets/images/teachers/kathryn-murphy.png"
+    teacher_image: "assets/images/teachers/kathryn-murphy.png"
   },
   {
     id: 8,
@@ -69,6 +69,6 @@ export const courses = [
     category: { id: "design", title: "Design" },
     price: "$240",
     teacher_name: "Cody Fisher",
-    teacher_image: "/assets/images/teachers/cody-fisher.png"
+    teacher_image: "assets/images/teachers/cody-fisher.png"
   }
 ]
