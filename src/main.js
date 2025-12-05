@@ -1,4 +1,3 @@
-// main.js
 import './css/main.scss'
 import { html } from './js/utils/html'
 import { createCard } from './js/modules/course-card'
